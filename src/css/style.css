@@ -1,0 +1,40 @@
+:root {
+    --var-bgcolor: width;
+    --var-fontcolor: #000;
+      font-size: 28px;
+      background-color: rgb(245, 245, 245);
+      color: white;
+      border-collapse: collapse; 
+      border: 1px solid black;
+      table-layout:fixed; width:98%;
+  }
+  
+  [dark] {
+    --var-bgcolor: rgb(22, 22, 29);
+    --var-fontcolor: #eee;
+      font-size: 28px;
+      background-color: rgb(24, 26, 26);
+      color: rgb(29, 27, 27);
+      border-collapse: collapse; 
+      border: 1px solid rgb(255, 251, 251);
+      table-layout:fixed; width:98%;
+
+  }
+  
+  body {
+    background-color: var(--var-bgcolor);
+    color: var(--var-fontcolor);
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+  }
+
+  .center{
+    width: 90%;
+    margin: 0 auto;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+
+}
